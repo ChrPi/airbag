@@ -120,7 +120,7 @@
   }
   .section{
 	background: url(./img/portada1.jpg) no-repeat;
-	background-size: cover;
+	background-size: 100% auto;
 	height: calc(100vh - 80px);
   }
 
