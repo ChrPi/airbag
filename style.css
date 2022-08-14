@@ -124,6 +124,18 @@
 	height: calc(100vh - 80px);
   }
 
+  .sectionellos{
+    background: url(./img/comoPortada.jpg) no-repeat;
+    background-size: 100% auto;
+    height: calc(100vh - 80px);
+    }
+
+    .sectiondeGaston{
+      background: url(./img/portadagaston.jpg) no-repeat;
+      background-size: 100% auto;
+      height: calc(100vh - 80px);
+      }
+
   .container__cards{
     max-width: 1200px;
     margin: auto;
@@ -215,7 +227,7 @@
     margin-top: 10px;
 }
 
-.card .description input{
+.card .description a{
     padding: 10px 40px;
     margin-top: 20px;
     border: none;
@@ -307,6 +319,14 @@ img{
   padding: 15px;
   margin: 15px;
   
+}
+
+.cuerpo p{
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  line-height: 1.5;
+
 }
 
 
